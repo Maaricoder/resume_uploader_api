@@ -2,7 +2,7 @@ import express, { application } from 'express'
 import dotev from 'dotenv'
 import cors from 'cors'
 import bodyparser from 'body-parser'
-import upload from './middleware/upload.middleware.js'
+
 
 dotev.config();
 
